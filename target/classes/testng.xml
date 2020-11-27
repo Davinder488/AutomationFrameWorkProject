@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationFrameWorkProject test automation suite">
+
+
+ <listeners>
+			<listener class-name="com.afwp.TestListeners.ExtentReportListener" />
+	</listeners>
+    
+    
+			
+    <test name="AutomationFrameWorkProject Test Cases">
+         <classes>
+            <class name="com.afwp.testcases.HomepageTestcases"/>
+         	
+         </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->	

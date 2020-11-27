@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationFrameWorkProject test automation suite]">
+  <listeners>
+    <listener class-name="com.afwp.TestListeners.ExtentReportListener"/>
+  </listeners>
+  <test name="AutomationFrameWorkProject Test Cases(failed)">
+    <classes>
+      <class name="com.afwp.testcases.HomepageTestcases">
+        <methods>
+          <include name="ClickonsignOnbtn"/>
+          <include name="setUp"/>
+          <include name="EnterValueInSearchEngine"/>
+          <include name="SubmitValueInSearchEngine"/>
+          <include name="setLog4j"/>
+          <include name="tearDown"/>
+          <include name="CallUsNow"/>
+        </methods>
+      </class> <!-- com.afwp.testcases.HomepageTestcases -->
+    </classes>
+  </test> <!-- AutomationFrameWorkProject Test Cases(failed) -->
+</suite> <!-- Failed suite [AutomationFrameWorkProject test automation suite] -->

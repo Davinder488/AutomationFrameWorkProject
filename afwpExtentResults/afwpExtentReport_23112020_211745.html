@@ -1,0 +1,965 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test Automation Report</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Test Automation Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Nov 23, 2020 09:17:45 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('exception-view')">
+        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
+          <span class="icon-holder">
+            <i class="fa fa-bug"></i>
+          </span>
+          <span class="title">Exception</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateYourLogoImgDisplay</p>
+							<p class="duration text-sm">0h 0m 0s+52ms</p>
+							<span class="datetime">21:17:53 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">validateYourLogoImgDisplay</h5>
+									<span class='badge badge-success'>11.23.2020 21:17:53</span>
+									<span class='badge badge-danger'>11.23.2020 21:17:53</span>
+									<span class='badge badge-default'>0h 0m 0s+52ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:53 PM</td>
+				<td>
+						Test Case Passed is ::: validateYourLogoImgDisplay
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">ClickonsignOnbtn</p>
+							<p class="duration text-sm">0h 0m 15s+76ms</p>
+							<span class="datetime">21:18:00 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">ClickonsignOnbtn</h5>
+									<span class='badge badge-success'>11.23.2020 21:18:00</span>
+									<span class='badge badge-danger'>11.23.2020 21:18:15</span>
+									<span class='badge badge-default'>0h 0m 15s+76ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:15 PM</td>
+				<td>
+						Test Case Failed is ::: ClickonsignOnbtn
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:15 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header"]/div[2]/div/div/nav/div[1]/a1"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C4GOGT3', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\davin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2d6d2bf8c584b29d5b1fd0ee687d055
+*** Element info: {Using=xpath, value=//*[@id="header"]/div[2]/div/div/nav/div[1]/a1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.afwp.allpages.Homepage.ClickonsignOnbtn(Homepage.java:37)
+	at com.afwp.testcases.HomepageTestcases.ClickonsignOnbtn(HomepageTestcases.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\ClickonsignOnbtn_23112020_211815.png' src='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\ClickonsignOnbtn_23112020_211815.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">EnterValueInSearchEngine</p>
+							<p class="duration text-sm">0h 0m 3s+44ms</p>
+							<span class="datetime">21:18:22 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">EnterValueInSearchEngine</h5>
+									<span class='badge badge-success'>11.23.2020 21:18:22</span>
+									<span class='badge badge-danger'>11.23.2020 21:18:25</span>
+									<span class='badge badge-default'>0h 0m 3s+44ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:25 PM</td>
+				<td>
+						Test Case Failed is ::: EnterValueInSearchEngine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:25 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@name='search_query']1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='search_query']1' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C4GOGT3', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\davin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19782911c2ea0ef3d90ae18c4c84b5c9
+*** Element info: {Using=xpath, value=//input[@name='search_query']1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.afwp.allpages.Homepage.EnterValueInSearchEngine(Homepage.java:40)
+	at com.afwp.testcases.HomepageTestcases.EnterValueInSearchEngine(HomepageTestcases.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\EnterValueInSearchEngine_23112020_211825.png' src='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\EnterValueInSearchEngine_23112020_211825.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SubmitValueInSearchEngine</p>
+							<p class="duration text-sm">0h 0m 15s+50ms</p>
+							<span class="datetime">21:18:33 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">SubmitValueInSearchEngine</h5>
+									<span class='badge badge-success'>11.23.2020 21:18:33</span>
+									<span class='badge badge-danger'>11.23.2020 21:18:48</span>
+									<span class='badge badge-default'>0h 0m 15s+50ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:48 PM</td>
+				<td>
+						Test Case Failed is ::: SubmitValueInSearchEngine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:18:48 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="searchbox"]/button1"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C4GOGT3', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\davin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b335f3887a2a09d6b3bb658a0c25bbd
+*** Element info: {Using=xpath, value=//*[@id="searchbox"]/button1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.afwp.allpages.Homepage.SubmitValueInSearchEngine(Homepage.java:43)
+	at com.afwp.testcases.HomepageTestcases.SubmitValueInSearchEngine(HomepageTestcases.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\SubmitValueInSearchEngine_23112020_211848.png' src='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\SubmitValueInSearchEngine_23112020_211848.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="5"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CallUsNow</p>
+							<p class="duration text-sm">0h 0m 15s+77ms</p>
+							<span class="datetime">21:18:56 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">CallUsNow</h5>
+									<span class='badge badge-success'>11.23.2020 21:18:56</span>
+									<span class='badge badge-danger'>11.23.2020 21:19:11</span>
+									<span class='badge badge-default'>0h 0m 15s+77ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:19:11 PM</td>
+				<td>
+						Test Case Failed is ::: CallUsNow
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:19:11 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header"]/div[2]/div/div/nav/span1"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C4GOGT3', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\davin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56d2b717408605d37841d2083678158b
+*** Element info: {Using=xpath, value=//*[@id="header"]/div[2]/div/div/nav/span1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.afwp.allpages.Homepage.CallUsNow(Homepage.java:46)
+	at com.afwp.testcases.HomepageTestcases.CallUsNow(HomepageTestcases.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\CallUsNow_23112020_211911.png' src='C:\Users\davin\eclipse-workspace\AutomationFrameWorkProject_Version1\FailedTestsScreenshots\CallUsNow_23112020_211911.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div><div class="test-wrapper row exception-view attributes-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Exception</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li>
+					<a href="#">
+					<span class="badge badge-primary">2</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">org.openqa.selenium.NoSuchElementException</p>
+							<p class="duration text-sm">3 tests</p>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>org.openqa.selenium.NoSuchElementException</h4>
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>21:18:00 PM</td>
+									<td class='linked' test-id='2'>
+										ClickonsignOnbtn
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>21:18:33 PM</td>
+									<td class='linked' test-id='4'>
+										SubmitValueInSearchEngine
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>21:18:56 PM</td>
+									<td class='linked' test-id='5'>
+										CallUsNow
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">org.openqa.selenium.InvalidSelectorException</p>
+							<p class="duration text-sm">1 tests</p>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>org.openqa.selenium.InvalidSelectorException</h4>
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>21:18:22 PM</td>
+									<td class='linked' test-id='3'>
+										EnterValueInSearchEngine
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='20%'>
+						<b>1</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='80%'><b>4</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='11.111%'><b>1</b> events passed</small></div>
+					<div>
+						<small data-tooltip='88.889%'><b>8</b> events failed, 
+						<b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">5</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>20.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Nov 23, 2020 09:17:45 PM</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 1m 26s+763ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 5,
+		passParent: 1,
+		failParent: 4,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 4,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 9,
+		passEvents: 1,
+		failEvents: 8,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 0,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "validateYourLogoImgDisplay":0.052,"ClickonsignOnbtn":15.076,"EnterValueInSearchEngine":3.044,"SubmitValueInSearchEngine":15.05,"CallUsNow":15.077
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>
